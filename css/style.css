@@ -1,0 +1,86 @@
+
+body {
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  background-image: url(../img/main-bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 50px;
+}
+
+h1 {
+  font-size: 1.3em;
+  color: #444;
+  text-align: center;
+  font-weight: 800;
+}
+
+
+#extraInput{
+  display: none;
+}
+
+.tab {
+  background-image: url(../img/bg.png);
+  padding: 1em;
+  margin: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: 50%;
+}
+
+@media(max-width: 700px){
+	.tab{
+		margin: auto;
+		width: 100% 
+	}
+}
+
+div.menu-item {
+  background: #245188;
+  border-radius: 5px;
+  color: #fff;
+  padding: 0.7em;
+  margin-bottom: 10px;
+}
+
+/*Form Inputs*/
+
+input {
+  width: 100%;
+  box-sizing: border-box;
+  border: solid;
+  border-width: 2px;
+  border-color: rgba(9,66,137, 0.8);
+  font-family: Raleway, sans-serif;
+  font-size: 1em;
+  color: #444;
+  margin-top: 0.5em;
+  padding: 0.5em;
+  border-radius: 5px;
+}
+
+a.close{
+  cursor: pointer;
+}
+
+button{
+	font-family: Raleway, sans-serif;
+	min-width: 80px;
+	height: 40px;
+	background-color: #444;
+	border-radius: 5px;
+	color: #fff;
+	border: none;
+	margin-left: 10px;
+	float: right;
+	position: relative;
+	bottom: 50px;
+}
+
+button:hover{
+	background-color: #910;
+}
+
+
